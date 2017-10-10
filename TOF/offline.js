@@ -1,5 +1,5 @@
 ﻿{
-	"version": 1504201742,
+	"version": 1504553538,
 	"fileList": [
 		"data.js",
 		"c2runtime.js",
@@ -49,6 +49,7 @@
 		"images/mapa-sheet0.png",
 		"images/mapa2-sheet0.png",
 		"images/mapa2-sheet1.png",
+		"images/totalobj-sheet0.png",
 		"icon-16.png",
 		"icon-32.png",
 		"icon-114.png",
