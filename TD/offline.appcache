@@ -1,14 +1,12 @@
 ﻿CACHE MANIFEST
-#1508354940
+#1508434934
 data.js
 c2runtime.js
 jquery-2.1.1.min.js
 offlineClient.js
 images/pontinhocarregar-sheet0.png
 images/barcarregar-sheet0.png
-images/progresstext.png
 images/opcoes-sheet0.png
-images/particles.png
 images/fundologo-sheet0.png
 images/play-sheet0.png
 images/solid-sheet0.png
@@ -32,6 +30,7 @@ images/wave3-sheet0.png
 images/wave_number-sheet0.png
 images/wave_number-sheet1.png
 images/wave_number-sheet2.png
+images/swave.png
 images/wave_limite-sheet0.png
 images/next_wave-sheet0.png
 images/bullet_green-sheet0.png
@@ -41,7 +40,6 @@ images/icon_moedas-sheet0.png
 images/tower5-sheet0.png
 images/tower6-sheet0.png
 images/icon_vidas-sheet0.png
-images/sprite2-sheet0.png
 images/moedas-sheet0.png
 images/bullet_red-sheet0.png
 images/bullet_blue-sheet0.png
@@ -51,6 +49,9 @@ images/botaoestrutura-sheet0.png
 images/botaoestrutura-sheet1.png
 images/botaospeed-sheet0.png
 images/botaospeed-sheet1.png
+images/logo_nova-sheet0.png
+images/logo_nova-sheet1.png
+images/sombra-sheet0.png
 icon-16.png
 icon-32.png
 icon-114.png
