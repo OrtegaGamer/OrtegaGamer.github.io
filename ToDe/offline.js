@@ -1,5 +1,5 @@
 ﻿{
-	"version": 1509731751,
+	"version": 1509731788,
 	"fileList": [
 		"data.js",
 		"c2runtime.js",
@@ -74,6 +74,7 @@
 		"images/selecionartorre-sheet0.png",
 		"images/sprite2-sheet0.png",
 		"images/local6-sheet0.png",
+		"images/botaoplay-sheet0.png",
 		"icon-16.png",
 		"icon-32.png",
 		"icon-114.png",
