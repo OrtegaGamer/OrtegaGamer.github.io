@@ -1,0 +1,13 @@
+<?php
+  header('Access-Control-Allow-Origin: *');
+  $ID = $GET['ID'];
+
+  if($ID == '123456'){
+
+    echo '<?xml version="1.0" encoding="UTF-8"?>';
+    echo '<root>';
+    echo '<Fala id"Fala">'Aperte o Play</Fala>';
+    echo '</root>';
+  }
+
+?>
