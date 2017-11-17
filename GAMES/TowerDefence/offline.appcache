@@ -1,5 +1,5 @@
 ﻿CACHE MANIFEST
-#1509562981
+#1510939067
 data.js
 c2runtime.js
 jquery-2.1.1.min.js
@@ -14,7 +14,7 @@ images/start-sheet0.png
 images/start2-sheet0.png
 images/hud-sheet0.png
 images/icon_tower1-sheet0.png
-images/icons_tower2-sheet0.png
+images/icon_tower2-sheet0.png
 images/icon_tower3-sheet0.png
 images/icon_tower4-sheet0.png
 images/locais-sheet0.png
@@ -34,8 +34,8 @@ images/next_wave-sheet0.png
 images/bullet_green-sheet0.png
 images/escolha_tower-sheet0.png
 images/icon_moedas-sheet0.png
-images/tower5-sheet0.png
-images/tower6-sheet0.png
+images/icon_tower5-sheet0.png
+images/icon_tower6-sheet0.png
 images/icon_vidas-sheet0.png
 images/moedas-sheet0.png
 images/bullet_red-sheet0.png
@@ -73,6 +73,10 @@ images/escolat-sheet0.png
 images/selecionartorre-sheet0.png
 images/sprite2-sheet0.png
 images/local6-sheet0.png
+images/play2-sheet0.png
+images/play3-sheet0.png
+images/fecharopcao-sheet0.png
+images/fundosobre-sheet0.png
 icon-16.png
 icon-32.png
 icon-114.png
