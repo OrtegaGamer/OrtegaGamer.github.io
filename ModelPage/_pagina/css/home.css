@@ -1,0 +1,72 @@
+
+body, html {
+  width: 100%;
+  min-height: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #F0F8FF;
+}
+a {
+  font-size: 1.25em;
+}
+
+.barTop {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  background-color: #2F4F4F;
+}
+.barTop > a {
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  padding: 15px;
+  color: #2E8B57;
+}
+.barTop > a:hover {
+    color: #3CB371;
+}
+.boxImage {
+  background-color: #FFF5EE;
+  height: 500px;
+}
+.noFundo {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  background-color: #000000;
+  bottom: 0;
+}
+.andar {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  background-color: #2F4F4F;
+}
+.noFundo > a {
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  padding: 15px;
+  color: #696969;
+}
+.noFundo > a:hover {
+    color: #C0C0C0;
+}
+.intensNomes {
+  flex-grow: 5;
+  flex-shrink: 5;
+}
