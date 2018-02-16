@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<style>
+		body{
+			background-color:#F8F8FF;
+			margin:120px;
+			border: 1px solid #FFDAB9;
+		
+		}
+		
+		nav#menu ul{
+		  list-style: none;
+		  text-transform: uppercase;
+		  position: absolute;
+		  top: -20px;
+		  left: 450px;
+		}
+		nav#menu li{
+		  display: inline-block;
+		  background-color: rgba(147,112,219,.5);
+		  padding: 10px;
+		  margin: 1px;
+		  transition-property: width 2s;
+		}
+		nav#menu li:hover{
+		 height: 50px;
+		}
+		/*Agora nos não temos mais o item Menu principal mas,ele continua sendo visivel para os mecanismos de busca
+		dentro do meu item de navegação com uma identificação menu princpal como titulo principal*/
+		nav#menu h1{
+		  display: none;
+		}
+		section#menu{
+			display: block;
+			float: left;
+			width: 500px;
+			height: 800px;
+			border-right: 1px dashed #606060;
+		
+		}
+		
+		aside#esquerda{
+			display: block;
+			float: right;
+			background-color: #FAF0E6;
+			margin: 50px;
+			width: 500px;
+		}
+		table#tabelagames{
+			border: 5px solid #FFDAB9;
+		}
+		table#tabelagames td{
+			position: relative;
+			border: 1px solid #FFDAB9;
+			padding: 50px;
+			padding-right: 20px;
+			padding-left: 20px;
+		
+		}
+		
+		</style>
+	</head>
+	<body>
+	<section id="menu">
+	<nav id="menu">
+	<h1>Menu de opçoes que ainda vou colocar na lateral...</h1>
+		<ul type="disc">
+			<li><a>HOME</a></li>
+			<li><a>LINKS</a></li>
+			<li><a>JOGO AGORA</a></li>
+		</ul>
+	</nav>
+	</section>	
+		
+	<aside id="esquerda">
+		<table id="tabelagames">
+			<tr><td>primeiro jogo</td><td> data: 20/10/17 </td><td><a href="http://ortegagamer.github.io/TD" target="_blank">link01</a></td></tr>
+			<tr><td>segunda versão</td><td> data: 25/10/17 </td><td><a href="http://ortegagamer.github.io/TowerD" target="_blank">link02</a></td></tr>
+			<tr><td>terceira versão</td><td> data: 01/11/17 </td><td><a href="http://ortegagamer.github.io/TowerDefence" target="_blank">link03</a></td></tr>
+			<tr><td>quarta versão newHUD</td><td> data: 01/11/17 </td><td><a href="http://ortegagamer.github.io/ToDe" target="_blank">link03</a></td></tr>
+		</table>
+
+	</aside>
+
+	</body>
+</html>
