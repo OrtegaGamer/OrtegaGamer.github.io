@@ -1,0 +1,94 @@
+
+body, html {
+  width: 100%;
+  min-height: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #F0F8FF;
+}
+.imagemPassa {
+  display: block;
+  align-items: center;
+  width: 600px;
+  height: 400px;
+  padding-top: 50px;
+}
+.itensRedondos {
+  width: 250px;
+  height: 250px;
+  border-radius: 250px;
+  transition: border-radius 0.5s;
+}
+.itensRedondos:hover {
+  border-radius: 25px;
+
+}
+.localItens {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 50px;
+  padding-left: 150px;
+  padding-right: 150px;
+  background-color: #FFFAF0;
+}
+a {
+  font-size: 1.25em;
+}
+
+.barTop {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  background-color: #2F4F4F;
+}
+.barTop > a {
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  font-size: 22pt;
+  padding: 30px;
+  color: #2E8B57;
+}
+.barTop > a:hover {
+    color: #3CB371;
+}
+.boxImage {
+  display: flex;
+  justify-content: center;
+  background-color: #FFFAF0;
+  height: 500px;
+}
+.noFundo {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  background-color: #000000;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.noFundo > a {
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  font-size: 22pt;
+  padding: 30px;
+  color: #696969;
+}
+.noFundo > a:hover {
+    color: #C0C0C0;
+}
+.intensNomes {
+  flex-grow: 5;
+  flex-shrink: 5;
+}
