@@ -1,0 +1,55 @@
+.boxImage {
+  background-color: #A7D4F1;
+}
+.imagemPassa {
+  width: 273px;
+  height: 367px;
+  border-radius: 0;
+}
+.sobreEU {
+  background-color: #FAEDED;
+  margin-left: 220px;
+  margin-right: 220px;
+  margin-top: 0;
+}
+.sobreEU > h1 {
+  font-size: 32pt;
+  font-family: 'Arsenal', sans-serif;
+  background-color: #908181;
+  padding: 5px;
+  border-radius: 5px;
+  margin-bottom: 0;
+}
+.sobreEU > h2 {
+  font-size: 26pt;
+  font-family: 'Arsenal', sans-serif;
+  background-color: #E5BFBF;
+  margin-top: 0;
+  color: #646464;
+  border-radius: 0px 0px 25px 25px;
+  padding: 0px 10px 10px 10px;
+}
+.sobreDADOS {
+  background-color: #FAEDED;
+  margin-left: 220px;
+  margin-right: 220px;
+  margin-top: 0;
+}
+.sobreDADOS > h1 {
+  font-size: 32pt;
+  font-family: 'Arsenal', sans-serif;
+  background-color: #A5904B;
+  padding: 5px;
+  border-radius: 5px;
+  margin-bottom: 0;
+  color: #ffffff;
+}
+.sobreDADOS > h2 {
+  font-size: 18pt;
+  font-family: 'Arsenal', sans-serif;
+  background-color: #F8DE89;
+  margin-top: 0;
+  color: #646464;
+  border-radius: 0px 0px 25px 25px;
+  padding: 0px 10px 10px 10px;
+}
