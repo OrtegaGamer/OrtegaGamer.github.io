@@ -6,6 +6,9 @@ body, html {
   padding: 0;
   margin: 0;
 }
+header {
+  height: 100%;
+}
 body {
   display: flex;
   flex-direction: column;
@@ -14,9 +17,9 @@ body {
   background-color: #F0F8FF;
 }
 .imagemPassa {
-  width: 275px;
-  height: 275px;
-  border-radius: 55px;
+  width: 250px;
+  height: 250px;
+  border-radius: 25%;
   transition: border-radius 1.5s;
 }
 .itensRedondos {
@@ -67,14 +70,13 @@ a {
     color: #606060;
 }
 .boxImage {
+  height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  flex-shrink: 1;
   background-color: #606060;
   padding-top: 125px;
-  padding-bottom: 50px;
+  padding-bottom: 100%;
 }
 .boxImage > h1 {
   font-size: 32pt;
