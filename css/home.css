@@ -5,9 +5,10 @@ body, html {
   height: 100%;
   padding: 0;
   margin: 0;
+  max-width: 100%;
 }
 header {
-  height: 100%;
+  height: 75%;
 }
 body {
   display: flex;
@@ -48,6 +49,7 @@ a {
 }
 
 .barTop {
+  z-index: 1;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -55,7 +57,7 @@ a {
   align-content: baseline;
   width: 100%;
   height: 110px;
-  background-color: #2F4F4F;
+  background-color: #322838;
   position: fixed;
 }
 .barTop > a {
@@ -63,20 +65,21 @@ a {
   text-align: center;
   font-family: 'Gudea', sans-serif;
   font-size: 16pt;
+  font-weight: bolder;
   margin: auto;
   color: #FFFFFF;
+  transition: color 1s;
 }
 .barTop > a:hover {
-    color: #606060;
+    color: #646464;
 }
 .boxImage {
-  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   background-color: #606060;
-  padding-top: 125px;
-  padding-bottom: 100%;
+  padding-top: 175px;
+  padding-bottom: 110px;
 }
 .boxImage > h1 {
   font-size: 32pt;
@@ -92,7 +95,7 @@ a {
   justify-content: center;
   align-content: center;
   width: 100%;
-  background-color: #000000;
+  background-color: #28242B;
   padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -115,22 +118,70 @@ a#meuNome {
     margin-right: 500px;
     font-size: 26pt;
 }
+/*-------------------------ARTIGOS---------------------*/
 .sobreEU {
-  background-color: #FFFAF0;
-  padding-left: 220px;
-  padding-right: 220px;
+  display: flex;
+  flex-direction: column;
+  background-color: #3F7299;
+  padding: 25px
 }
-p#texto-eu > h1 {
-  margin-left: 110px;
-  margin-right: 110px;
-  background-color: red;
+.sobreEU > h1 {
+  font-size: 32pt;
+  font-family: 'Arsenal', sans-serif;
+  color: #FFFFFF;
+  width: 100%;
+  height: 100%;
+  border-bottom: 1px solid red;
 }
-.sobreEU > p > h1 {
+.sobreEU > h2 {
   font-size: 22pt;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Arsenal', sans-serif;
+  margin-top: 0;
+  color: #FFFFFF;
+  border-radius: 25px;
+  margin: 10px;
+  padding: 20px;
 }
-.sobreEU > p > h2 {
-  font-size: 18pt;
-  font-family: 'Montserrat', sans-serif;
+.sobreAlgo {
+  display: flex;
+  flex-direction: column;
+  background-color: #3F7299;
+  padding: 25px
+}
+.sobreAlgo > h1 {
+  background-color: #FFE7E8;
+  border-left: 20px solid #E66465;
+  font-size: 32pt;
+  font-family: 'Arsenal', sans-serif;
+  color: #646464;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 0;
+}
+.sobreAlgo > h2 {
+  font-size: 22pt;
+  font-family: 'Arsenal', sans-serif;
+  margin-top: 0;
+  color: #FFFFFF;
+  border-radius: 25px;
+  margin: 10px;
+  padding: 20px;
 }
 /*ANIMATIONS WITH CSS  >>The animation code<<*/
+
+.noTalo {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  background-color: #322838;
+}
+.noTalo > h2 {
+  text-decoration: none;
+  font-family: 'Arsenal', sans-serif;
+  font-size: 12pt;
+  padding: 2px;
+  color: #C0C0C0;;
+}

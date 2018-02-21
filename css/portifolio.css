@@ -11,3 +11,22 @@
   animation-iteration-count: infinite;
   animation-direction: alternate;
 }
+.galeria {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0;
+  width: 100%;
+}
+.galeria > img {
+  padding: 0;
+  margin: 0;
+  width: 20%;
+  height: 20%;
+}
+.galeria img:hover {
+  animation-name: scale;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+}
