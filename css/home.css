@@ -8,7 +8,7 @@ body, html {
   max-width: 100%;
 }
 header {
-  height: 75%;
+  /*max-height: 85%;*/
 }
 body {
   display: flex;
