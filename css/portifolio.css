@@ -15,14 +15,14 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  padding: 0;
+  padding: 0px 110px 0px 110px;
   width: 100%;
 }
 .galeria > img {
   padding: 0;
   margin: 0;
-  width: 20%;
-  height: 20%;
+  width: 550px;
+  height: 350px;
 }
 .galeria img:hover {
   animation-name: scale;
