@@ -13,20 +13,53 @@
 }
 .galeria {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  justify-content:space-between;
+  align-items: center;
   flex-wrap: wrap;
-  padding: 0px 110px 0px 110px;
   width: 100%;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
-.galeria > img {
+.galeria > h1 {
+  font-size: 32pt;
+  color: #646464;
+  font-family: 'Arsenal', sans-serif;
+  padding: 0;
+  margin: 10px;
+  border-top: 5px solid #5CA47A;
+  border-bottom: 5px solid #5CA47A;
+  border-radius: 5px;
+}
+.galeria > img#TowerDefence {
   padding: 0;
   margin: 0;
-  width: 550px;
-  height: 350px;
-}
-.galeria img:hover {
-  animation-name: scale;
-  animation-duration: 3s;
-  animation-iteration-count: 1;
+  width: 700px;
+  height: 400px;
+  background-repeat: no-repeat;
+  animation-name: mudafoto-TD;
+  animation-duration: 25s;
+  animation-iteration-count: infinite;
   animation-direction: alternate;
+  border-radius: 10px;
+}
+.galeria > img#TOF {
+  padding: 0;
+  margin: 0;
+  width: 700px;
+  height: 400px;
+  background-repeat: no-repeat;
+  animation-name: mudafoto-TOF;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  border-radius: 10px;
+}
+.galeria > a {
+  text-decoration: none;
+  background-color: #5CA47A;
+  border-radius: 5px;
+  padding: 10px 30px 10px 30px;
+  color: #FFFFFF;
+  font-family: 'Arsenal', sans-serif;
 }

@@ -12,8 +12,23 @@
   to{transform:scale(1.2);}
 }
 @keyframes scale {
-  from{
-  }to{transform: scale(1.15);
-  }
+  0%{transform: scale(1.0);}
+  5%{transform: scale(1.8);}
+  85%{transform: scale(1.8);}
+  100%{transform: scale(1.0);}
 
+}
+@keyframes mudafoto-TD {
+  0%{background-image: url("../imagens/prints/towerdefence-a-pequena.png");}
+  20%{background-image: url("../imagens/prints/towerdefence-n-menu-pequena.png");}
+  40%{background-image: url("../imagens/prints/towerdefence-n-menufazes-pequena.png");}
+  60%{background-image: url("../imagens/prints/towerdefence-n-escolhafazes-pequena.png");}
+  80%{background-image: url("../imagens/prints/towerdefence-a-fazeum-pequena.png");}
+  100%{background-image: url("../imagens/prints/towerdefence-a-telavitoria-pequena.png");}
+}
+@keyframes mudafoto-TOF {
+  0%{background-image: url("../imagens/prints/TOF-menu-pequena.png");}
+  25%{background-image: url("../imagens/prints/TOF-escolhafazes-pequena.png");}
+  75%{background-image: url("../imagens/prints/TOF-fazeum-pequena.png");}
+  100%{background-image: url("../imagens/prints/TOF-telalevels-pequena.png");}
 }
