@@ -42,6 +42,10 @@
   animation-iteration-count: infinite;
   animation-direction: alternate;
   border-radius: 10px;
+  filter: grayscale(100%);
+}
+.galeria > img#TowerDefence:hover {
+  filter: grayscale(0%);
 }
 .galeria > img#TOF {
   padding: 0;
@@ -54,6 +58,10 @@
   animation-iteration-count: infinite;
   animation-direction: alternate;
   border-radius: 10px;
+  filter: grayscale(100%);
+}
+.galeria > img#TOF:hover {
+  filter: grayscale(0%);
 }
 .galeria > a {
   text-decoration: none;
