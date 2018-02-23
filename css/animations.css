@@ -32,3 +32,7 @@
   75%{background-image: url("../imagens/prints/TOF-fazeum-pequena.png");}
   100%{background-image: url("../imagens/prints/TOF-telalevels-pequena.png");}
 }
+@keyframes mudafoto-FG {
+  0%{background-image: url("../imagens/prints/Filosgame-start-pequena.png");}
+  25%{background-image: url("../imagens/prints/filosgame-start2-pequena.png");}
+}

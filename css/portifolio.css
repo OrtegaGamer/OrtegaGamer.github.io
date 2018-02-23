@@ -63,6 +63,22 @@
 .galeria > img#TOF:hover {
   filter: grayscale(0%);
 }
+galeria > img#FG {
+  padding: 0;
+  margin: 0;
+  width: 700px;
+  height: 400px;
+  background-repeat: no-repeat;
+  animation-name: mudafoto-FG;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  border-radius: 10px;
+  filter: grayscale(100%);
+}
+.galeria > img#TOF:hover {
+  filter: grayscale(0%);
+}
 .galeria > a {
   text-decoration: none;
   background-color: #5CA47A;
