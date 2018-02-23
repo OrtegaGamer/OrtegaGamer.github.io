@@ -18,10 +18,13 @@
   100%{transform: scale(1.0);}
 
 }
-@keyframes mudafotor-TD {
+@keyframes mudafoto-TD {
   0%{background-image: url("../imagens/prints/towerdefence-a-pequena.png");}
-  50%{background-image: url("../imagens/prints/towerdefence-n-menu-pequena.png");}
-  100%{background-image: url("../imagens/prints/towerdefence-n-menufazes-pequena.png");}
+  20%{background-image: url("../imagens/prints/towerdefence-n-menu-pequena.png");}
+  40%{background-image: url("../imagens/prints/towerdefence-n-menufazes-pequena.png");}
+  60%{background-image: url("../imagens/prints/towerdefence-n-escolhafazes-pequena.png");}
+  80%{background-image: url("../imagens/prints/towerdefence-a-fazeum-pequena.png");}
+  100%{background-image: url("../imagens/prints/towerdefence-a-telavitoria-pequena.png");}
 }
 @keyframes mudafoto-TOF {
   0%{background-image: url("../imagens/prints/TOF-menu-pequena.png");}

@@ -37,15 +37,11 @@
   width: 700px;
   height: 400px;
   background-repeat: no-repeat;
-  animation-name: mudafotor-TD;
+  animation-name: mudafoto-TD;
   animation-duration: 25s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
   border-radius: 10px;
-  filter: grayscale(100%);
-}
-.galeria > img#TowerDefence:hover {
-  filter: grayscale(0%);
 }
 .galeria > img#TOF {
   padding: 0;
