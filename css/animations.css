@@ -18,7 +18,7 @@
   100%{transform: scale(1.0);}
 
 }
-@keyframes mudafoto-TD {
+@keyframes mudafotor-TD {
   0%{background-image: url("../imagens/prints/towerdefence-a-pequena.png");}
   50%{background-image: url("../imagens/prints/towerdefence-n-menu-pequena.png");}
   100%{background-image: url("../imagens/prints/towerdefence-n-menufazes-pequena.png");}

@@ -31,13 +31,13 @@
   border-bottom: 5px solid #5CA47A;
   border-radius: 5px;
 }
-.galeria > img#TowerDefence {
+.galeria > img#TD {
   padding: 0;
   margin: 0;
   width: 700px;
   height: 400px;
   background-repeat: no-repeat;
-  animation-name: mudafoto-TD;
+  animation-name: mudafotor-TD;
   animation-duration: 25s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
