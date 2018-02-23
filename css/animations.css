@@ -19,12 +19,12 @@
 
 }
 @keyframes mudafoto-TD {
-  0%{background-image: url("http://ortegagamer.github.io/imagens/prints/towerdefence-a-pequena.png");}
-  20%{background-image: url("http://ortegagamer.github.io/imagens/prints/towerdefence-n-menu-pequena.png");}
-  40%{background-image: url("http://ortegagamer.github.io/imagens/prints/towerdefence-n-menufazes-pequena.png");}
-  60%{background-image: url("http://ortegagamer.github.io/imagens/prints/towerdefence-n-escolhafazes-pequena.png");}
-  80%{background-image: url("http://ortegagamer.github.io/imagens/prints/towerdefence-n-fazeum-pequena.png");}
-  100%{background-image: url("http://ortegagamer.github.io/imagens/prints/towerdefence-n-telavitoria-pequena.png");}
+  0%{background-image: url("../imagens/prints/towerdefence-a-pequena.png");}
+  20%{background-image: url("../imagens/prints/towerdefence-n-menu-pequena.png");}
+  40%{background-image: url("../imagens/prints/towerdefence-n-menufazes-pequena.png");}
+  60%{background-image: url("../imagens/prints/towerdefence-n-escolhafazes-pequena.png");}
+  80%{background-image: url("../imagens/prints/towerdefence-n-fazeum-pequena.png");}
+  100%{background-image: url("../imagens/prints/towerdefence-n-telavitoria-pequena.png");}
 }
 @keyframes mudafoto-TOF {
   0%{background-image: url("../imagens/prints/TOF-menu-pequena.png");}
@@ -34,5 +34,5 @@
 }
 @keyframes mudafoto-FG {
   0%{background-image: url("../imagens/prints/Filosgame-start-pequena.png");}
-  25%{background-image: url("../imagens/prints/filosgame-start2-pequena.png");}
+  100%{background-image: url("../imagens/prints/filosgame-start2-pequena.png");}
 }
