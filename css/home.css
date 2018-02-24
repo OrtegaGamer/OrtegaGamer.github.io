@@ -96,8 +96,8 @@ a {
   align-content: center;
   width: 100%;
   background-color: #28242B;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 .noFundo > a {
   text-decoration: none;
@@ -184,4 +184,17 @@ a#meuNome {
   font-size: 12pt;
   padding: 2px;
   color: #C0C0C0;;
+}
+.noFundo > a {
+  padding: 0;
+  margin: 0;
+}
+.noFundo > a > img {
+  border-radius: 32px;
+  width: 48px;
+  height: 48px;
+  margin: 5px;
+}
+.noFundo > a#github:hover {
+  background-image: url("imagens/Icone-github-hover.png");
 }
