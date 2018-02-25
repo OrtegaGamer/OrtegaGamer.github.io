@@ -1,0 +1,14 @@
+header {
+  padding-top: 110px;
+}
+.variasImagens {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 100%;
+  padding: 0;
+}
+.variasImagens > img {
+  width: 450px;
+  height: 300px;
+}

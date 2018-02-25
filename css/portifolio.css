@@ -21,7 +21,8 @@
   padding-top: 100px;
   padding-bottom: 100px;
 }
-.galeria > h1 {
+.galeria > h2 > a {
+  text-decoration: none;
   font-size: 32pt;
   color: #5CA47A;
   font-family: 'Arsenal', sans-serif;
