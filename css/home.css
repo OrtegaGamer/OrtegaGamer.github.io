@@ -198,6 +198,11 @@ a#meuNome {
   width: 48px;
   height: 48px;
   margin: 5px;
+  filter: grayscale(100%);
+}
+.noFundo > a > img:hover {
+  filter: grayscale(0%);
+
 }
 .noFundo > a#github:hover {
   background-image: url("imagens/Icone-github-hover.png");
