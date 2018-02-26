@@ -14,7 +14,7 @@ body, html {
   filter: grayscale(0%);
 }
 header {
-  /*max-height: 85%;*/
+  height: 85%;
 }
 body {
   display: flex;
@@ -86,38 +86,39 @@ a {
 .boxImage {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
+  align-content: : center;
   background-color: #606060;
-  padding-top: 175px;
-  padding-bottom: 110px;
+  height: 100%;
 }
 .boxImage > h1 {
-  font-size: 32pt;
+  font-size: 3.5em;
   color: #ffffff;
   font-family: 'Arsenal', sans-serif;
   padding: 0;
-  margin: 0;
+  margin-top: 110px;
+  border-top: 5px solid #FFFFFF;
 }
 .noFundo {
   display: flex;
-  flex-direction: row;
+  flex-direction: row-reverse;
   flex-wrap: nowrap;
   justify-content: center;
   align-content: center;
   width: 100%;
   background-color: #28242B;
-  padding-top: 5px;
-  padding-bottom: 5px;
 }
-.noFundo > a {
-  text-decoration: none;
-  font-family: 'Arsenal', sans-serif;
-  font-size: 22pt;
-  padding: 30px;
-  color: #696969;
+.noFundo > a > img {
+  border-radius: 56px;
+  width: 56px;
+  height: 56px;
+  margin: 5px;
+  filter: grayscale(100%);
 }
-.noFundo > a:hover {
-    color: #C0C0C0;
+
+.noFundo > a > img:hover {
+  filter: grayscale(0%);
 }
 .intensNomes {
   flex-grow: 5;
@@ -193,23 +194,36 @@ a#meuNome {
   font-family: 'Arsenal', sans-serif;
   font-size: 12pt;
   padding: 2px;
-  color: #C0C0C0;;
+  color: #C0C0C0;
 }
-.noFundo > a {
-  padding: 0;
-  margin: 0;
-}
-.noFundo > a > img {
-  border-radius: 32px;
-  width: 48px;
-  height: 48px;
-  margin: 5px;
-  filter: grayscale(100%);
-}
-.noFundo > a > img:hover {
-  filter: grayscale(0%);
-
-}
+/*
 .noFundo > a#github:hover {
   background-image: url("imagens/Icone-github-hover.png");
+}
+*/
+.linksFundo {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  padding: 5px 20% 5px 20%;
+}
+.linksFundo > h2 {
+  text-decoration: none;
+  font-family: 'Arsenal', sans-serif;
+  font-size: 18pt;
+  padding: 2px;
+  margin: 0;
+  color: #C0C0C0;
+}
+.linksFundo > a {
+  text-decoration: none;
+  font-family: 'Arsenal', sans-serif;
+  font-size: 12pt;
+  padding: 5px;
+  color: #696969;
+  transition: background-color 1s;
+}
+.linksFundo > a:hover {
+    color: #FFFFFF;
+    background-color: #322838;
 }

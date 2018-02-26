@@ -1,10 +1,12 @@
 .boxImage {
   background-color: #F7ADAF;
+  /*
   animation-name: opacidade;
   animation-duration: 2s;
   animation-delay: 1s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
+  */
 }
 .imagemPassa {
   width: 400px;
