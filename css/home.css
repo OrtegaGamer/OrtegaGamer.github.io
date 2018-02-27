@@ -29,6 +29,9 @@ body {
   border-radius: 25%;
   transition: border-radius 1.5s;
 }
+.imagemPassa:hover {
+  border-radius: 275px;
+}
 .itensRedondos {
   width: 250px;
   height: 250px;
