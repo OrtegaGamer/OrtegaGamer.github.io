@@ -11,6 +11,9 @@ header {
   animation-direction: alternate;
   */
 }
+.boxImage > h1 {
+  margin: 0;
+}
 .imagemPassa {
   width: 400px;
   height: 400px;

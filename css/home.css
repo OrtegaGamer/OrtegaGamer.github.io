@@ -89,9 +89,9 @@ a {
 .boxImage {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
-  align-content: : center;
+  align-content: flex-end;
   background-color: #606060;
   height: 100%;
 }
