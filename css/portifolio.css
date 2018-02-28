@@ -1,18 +1,10 @@
-header {
-  height: 85%;
-}
 .boxImage {
   background-color: #5CA47A;
 }
 .imagemPassa {
-  width: 250px;
-  height: 250px;
-  border-radius: 25px;
-  animation-name: rodar;
-  animation-duration: 4s;
-  animation-delay: 2s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
+  width: 400px;
+  height: 400px;
+  border-radius: 250px;
 }
 .galeria {
   display: flex;
@@ -33,6 +25,10 @@ header {
   margin: 10px;
   border: 2px solid #5CA47A;
   border-radius: 5px;
+  transition: background-color 1s;
+}
+.galeria > h2 > a:hover {
+  background-color: #5CA47A;
 }
 .galeria > img#TowerDefence {
   padding: 0;
