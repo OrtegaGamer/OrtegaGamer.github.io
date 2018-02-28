@@ -1,9 +1,12 @@
+header {
+  height: 85%;
+}
 .boxImage {
   background-color: #5CA47A;
 }
 .imagemPassa {
-  width: 400px;
-  height: 400px;
+  width: 250px;
+  height: 250px;
   border-radius: 25px;
   animation-name: rodar;
   animation-duration: 4s;
