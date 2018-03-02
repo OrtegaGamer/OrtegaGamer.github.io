@@ -69,7 +69,7 @@ body {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  justify-content: space-around;
+  justify-content: space-between;
   align-content: baseline;
   width: 100%;
   height: 110px;
@@ -96,8 +96,9 @@ body {
   margin: auto;
   padding: 20px 30px 20px 30px;
   color: #FFFFFF;
-  margin-right: 40%;
+  padding-right: 40%;
   font-size: 2.25em;
+  min-width: 200px;
 }
 a#HERE {
     background-color: #322838;
@@ -137,11 +138,11 @@ a#HERE {
   height: 100%;
 }
 .noFundo > a > img {
-  border-radius: 56px;
-  width: 56px;
-  height: 56px;
+  border-radius: 20px;
+  width: 96px;
+  height: 96px;
   filter: grayscale(100%);
-  margin: 4px;
+  margin: 2px;
 }
 
 .noFundo > a > img:hover {
@@ -184,6 +185,7 @@ a#HERE {
   width: 100%;
   height: 100%;
   margin-bottom: 0;
+  border-radius: 10px;
 }
 .sobreAlgo > h2 {
   color: #FFFFFF;
