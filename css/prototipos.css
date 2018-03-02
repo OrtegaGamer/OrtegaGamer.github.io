@@ -1,3 +1,6 @@
+header {
+  height: 85%
+}
 .boxImage {
   background-color: #F7ADAF;
   animation-name: opacidade;
