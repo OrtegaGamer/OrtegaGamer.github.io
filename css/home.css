@@ -7,7 +7,6 @@ body, html {
   margin: 0;
   max-width: 100%;
 }
-
 a {
   text-decoration: none;
   font-family: 'Arsenal', sans-serif;
@@ -27,7 +26,7 @@ h2 {
     color: #FFFFFF;
 }
 header {
-  height: 70%;
+  height: 100%;
 }
 body {
   display: flex;
@@ -116,7 +115,7 @@ a#HERE {
   align-items: center;
   align-content: flex-end;
   background-color: #606060;
-  height: 100%;
+  padding-top: 110px;
 }
 .boxImage > h1 {
   font-size: 3.5em;
